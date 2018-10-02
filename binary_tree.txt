@@ -1,0 +1,29 @@
+
+public class Node {
+
+   
+    public Node leftChild;
+    public Node rightChild;
+    int value
+
+    public Node(int in_value) {
+      value = in_value
+    }
+
+}
+
+
+public class Tree {
+    private Node root;                 
+   
+
+    public Tree() {                  
+        root = null;                 
+    }
+
+    public Tree(Node root) {
+        this.root = root;
+    }
+   
+    public void insert(Node newNode) {
+  }
