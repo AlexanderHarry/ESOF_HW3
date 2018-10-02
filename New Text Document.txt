@@ -1,0 +1,2 @@
+Extends relationship is an occasionally shared behavior between two or more use cases.
+Include relationships means that the cases support the reuse between cases. 
