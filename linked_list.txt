@@ -1,0 +1,53 @@
+public class Employee {
+    private String name;
+    private int ssn;
+    private int salary;
+    
+    public Employee(String name, int ssn, int salary){
+        name = name;
+        ssn = ssn; 
+        salary = salary;
+        
+    }
+            
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+
+    public int getSsn() {
+        return ssn;
+    }
+
+    public void setSsn(int ssn) {
+        this.ssn = ssn;
+    }
+
+
+    public int getSalary() {
+        return salary;
+    }
+
+    public void setSalary(int salary) {
+        this.salary = salary;
+    }
+
+    
+    
+}
+
+
+import java.util.LinkedList;
+
+public class Linked_list {
+    private LinkedList<Employee> linked_list = new LinkedList<>();
+
+    public void addTail(Employee newNode){
+        linked_list.addLast(newNode);
+    }
+}
+
